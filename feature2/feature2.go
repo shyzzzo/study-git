@@ -9,7 +9,15 @@ func add(a, b int) int {
 	return sum
 }
 
+func proizvedenie(a, b int) int {
+	sum := a * b
+	fmt.Println("произведение 2 чисел:", sum)
+
+	return sum
+}
+
 func Feature2() {
 	fmt.Println("Я рома стрелецкий лучший программист")
 	add(1, 5)
+	proizvedenie(5, 6)
 }
