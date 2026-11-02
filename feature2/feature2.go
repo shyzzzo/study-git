@@ -11,7 +11,7 @@ func add(a, b int) int {
 
 func proizvedenie(a, b int) int {
 	sum := a * b
-	fmt.Println(sum)
+	fmt.Println("произведение 2 чисел:", sum)
 
 	return sum
 }
